@@ -25,11 +25,11 @@ console.log(Number(myGroup), Boolean(myGroup), String(myGroup));*/
 
 ////////////////////////////------------2-------------//////////////////////////
 //b. Население Москвы равняется а=9000000 жителей. Население Нью-Васюков равняется b=1000 жителей. Напишите программу, которая определяет разницу в числе жителей между двумя городами. Используйте переменные величины.//
-/*let MoscowHabbitats = 9000000;
+let MoscowHabbitats = 9000000;
 let newVasukovHabbitats = 1000;
 
 let difference = MoscowHabbitats - newVasukovHabbitats;
-console.log(difference);*/
+console.log(difference);
 
 //c. В углу прямоугольного двора размером 50х30 стоит прямоугольный дом размером 20х10. Подсчитать площадь дома, свободную площадь двора и длину забора. Примечание: в углу, где дом, забора нет.
 /*let yardWidth = 50;
@@ -114,11 +114,12 @@ if (number1 > number2) {
   console.log(number1 + number2);
 } else {
   console.log(number1 * number2);
-}*/
+}
+*/
 
 //g. Дракон каждый год отращивает по три головы, но после того, как ему исполнится 100 лет - только по две. Сколь-ко голов и глаз у дракона, которому N лет? Результат вывести в консоли.///
-
-/*let dragonAge = Number(prompt("Сколько лет дракону?", "120"));
+/*
+let dragonAge = Number(prompt("Сколько лет дракону?", "120"));
 
 if (dragonAge < 100) {
   console.log(`У дракона ${dragonAge * 3} голов и ${dragonAge * 3 * 2} глаз`);

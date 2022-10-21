@@ -32,7 +32,7 @@ let difference = MoscowHabbitats - newVasukovHabbitats;
 console.log(difference);*/
 
 //c. В углу прямоугольного двора размером 50х30 стоит прямоугольный дом размером 20х10. Подсчитать площадь дома, свободную площадь двора и длину забора. Примечание: в углу, где дом, забора нет.
-/*let yardWidth = 50;
+let yardWidth = 50;
 let yardHeight = 30;
 let houseWidth = 20;
 let houseHeight = 10;
@@ -59,7 +59,7 @@ function fenceLength(
 ) {
   console.log(fenceLengthBrutto);
 }
-fenceLength();*/
+fenceLength();
 
 //d. Автомобиль 3 часа ехал со скоростью 80 км/час и 2 часа со скоростью 90 км/час. Вычислить среднюю ско-рость автомобиля (она равна суммарному пути, деленному на суммарное время) //
 
@@ -114,11 +114,12 @@ if (number1 > number2) {
   console.log(number1 + number2);
 } else {
   console.log(number1 * number2);
-}*/
+}
+*/
 
 //g. Дракон каждый год отращивает по три головы, но после того, как ему исполнится 100 лет - только по две. Сколь-ко голов и глаз у дракона, которому N лет? Результат вывести в консоли.///
-
-/*let dragonAge = Number(prompt("Сколько лет дракону?", "120"));
+/*
+let dragonAge = Number(prompt("Сколько лет дракону?", "120"));
 
 if (dragonAge < 100) {
   console.log(`У дракона ${dragonAge * 3} голов и ${dragonAge * 3 * 2} глаз`);

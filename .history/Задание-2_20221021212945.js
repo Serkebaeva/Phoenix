@@ -1,6 +1,6 @@
 ////////////////////////////------------1-------------//////////////////////////
 /*Ваша задача состоит в том, чтобы создать 8 переменных с помощью let, которые будут представлять 8 разных типов данных. Каждую из этих переменных требуется явно преобразовать к 3-м типам: к number, boolean и string. Конечные значения выведите в консоль.*/
-/*let userName = "Aiza";
+let userName = "Aiza";
 console.log(Number(userName), Boolean(userName), String(userName));
 let phoneNumber = "+996 555 555555";
 console.log(Number(phoneNumber), Boolean(phoneNumber), String(phoneNumber));
@@ -21,7 +21,7 @@ console.log(
   String(someUndefinedVar)
 );
 let myGroup = ["Aizada", "Adilet", "Diana", "Erkin"];
-console.log(Number(myGroup), Boolean(myGroup), String(myGroup));*/
+console.log(Number(myGroup), Boolean(myGroup), String(myGroup));
 
 ////////////////////////////------------2-------------//////////////////////////
 //b. Население Москвы равняется а=9000000 жителей. Население Нью-Васюков равняется b=1000 жителей. Напишите программу, которая определяет разницу в числе жителей между двумя городами. Используйте переменные величины.//
@@ -114,11 +114,12 @@ if (number1 > number2) {
   console.log(number1 + number2);
 } else {
   console.log(number1 * number2);
-}*/
+}
+*/
 
 //g. Дракон каждый год отращивает по три головы, но после того, как ему исполнится 100 лет - только по две. Сколь-ко голов и глаз у дракона, которому N лет? Результат вывести в консоли.///
-
-/*let dragonAge = Number(prompt("Сколько лет дракону?", "120"));
+/*
+let dragonAge = Number(prompt("Сколько лет дракону?", "120"));
 
 if (dragonAge < 100) {
   console.log(`У дракона ${dragonAge * 3} голов и ${dragonAge * 3 * 2} глаз`);

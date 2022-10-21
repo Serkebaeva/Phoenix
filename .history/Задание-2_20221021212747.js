@@ -10,16 +10,16 @@ let myBigInt = 50025664857826652212021n;
 console.log(Number(myBigInt), Boolean(myBigInt), String(myBigInt));
 let someNullVariable = null;
 console.log(
-  Number(someNullVariable),
-  Boolean(someNullVariable),
-  String(someNullVariable)
+	Number(someNullVariable),
+	Boolean(someNullVariable),
+	String(someNullVariable)
 );
 let someUndefinedVar = undefined;
 console.log(
-  Number(someUndefinedVar),
-  Boolean(someUndefinedVar),
+	Number(someUndefinedVar),
+	Boolean(someUndefinedVar),
   String(someUndefinedVar)
-);
+  );
 let myGroup = ["Aizada", "Adilet", "Diana", "Erkin"];
 console.log(Number(myGroup), Boolean(myGroup), String(myGroup));*/
 
@@ -114,11 +114,12 @@ if (number1 > number2) {
   console.log(number1 + number2);
 } else {
   console.log(number1 * number2);
-}*/
+}
+*/
 
 //g. Дракон каждый год отращивает по три головы, но после того, как ему исполнится 100 лет - только по две. Сколь-ко голов и глаз у дракона, которому N лет? Результат вывести в консоли.///
-
-/*let dragonAge = Number(prompt("Сколько лет дракону?", "120"));
+/*
+let dragonAge = Number(prompt("Сколько лет дракону?", "120"));
 
 if (dragonAge < 100) {
   console.log(`У дракона ${dragonAge * 3} голов и ${dragonAge * 3 * 2} глаз`);

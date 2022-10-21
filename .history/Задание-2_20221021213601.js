@@ -114,11 +114,12 @@ if (number1 > number2) {
   console.log(number1 + number2);
 } else {
   console.log(number1 * number2);
-}*/
+}
+*/
 
 //g. Дракон каждый год отращивает по три головы, но после того, как ему исполнится 100 лет - только по две. Сколь-ко голов и глаз у дракона, которому N лет? Результат вывести в консоли.///
-
-/*let dragonAge = Number(prompt("Сколько лет дракону?", "120"));
+/*
+let dragonAge = Number(prompt("Сколько лет дракону?", "120"));
 
 if (dragonAge < 100) {
   console.log(`У дракона ${dragonAge * 3} голов и ${dragonAge * 3 * 2} глаз`);

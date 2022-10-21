@@ -10,16 +10,16 @@ let myBigInt = 50025664857826652212021n;
 console.log(Number(myBigInt), Boolean(myBigInt), String(myBigInt));
 let someNullVariable = null;
 console.log(
-  Number(someNullVariable),
-  Boolean(someNullVariable),
-  String(someNullVariable)
+	Number(someNullVariable),
+	Boolean(someNullVariable),
+	String(someNullVariable)
 );
 let someUndefinedVar = undefined;
 console.log(
-  Number(someUndefinedVar),
-  Boolean(someUndefinedVar),
+	Number(someUndefinedVar),
+	Boolean(someUndefinedVar),
   String(someUndefinedVar)
-);
+  );
 let myGroup = ["Aizada", "Adilet", "Diana", "Erkin"];
 console.log(Number(myGroup), Boolean(myGroup), String(myGroup));*/
 
@@ -114,11 +114,12 @@ if (number1 > number2) {
   console.log(number1 + number2);
 } else {
   console.log(number1 * number2);
-}*/
+}
+*/
 
 //g. Дракон каждый год отращивает по три головы, но после того, как ему исполнится 100 лет - только по две. Сколь-ко голов и глаз у дракона, которому N лет? Результат вывести в консоли.///
-
-/*let dragonAge = Number(prompt("Сколько лет дракону?", "120"));
+/*
+let dragonAge = Number(prompt("Сколько лет дракону?", "120"));
 
 if (dragonAge < 100) {
   console.log(`У дракона ${dragonAge * 3} голов и ${dragonAge * 3 * 2} глаз`);
@@ -139,57 +140,17 @@ if (dragonAge < 100) {
 
 //h. *В браузер вводится возраст человека, узнав возраст, браузер дальнейшую беседу ведет по двум вариантам. Если возраст больше 17, то компьютер должен задать вопрос: "В каком институте ты учишься?" и получив ответ, глубокомысленно заметить "Хороший институт". Если же возраст меньше или равен 17, то соответственно - "В какой школе ты учишься?" и "Неплохая школа". После этого, каков бы ни был вариант, компьютер должен попрощаться: "До следующей встречи!"//
 
-/*let userAge = Number(prompt("Ваш возраст?", "18"));
-alert(userAge);
+let userAge = Number(prompt("Ваш возраст?", "18"));
+alert(userAge)
 
 if (userAge > 17) {
   let univerInfo = prompt("В каком институте ты учишься?", "КГНУ");
-  let univerResponse = document.querySelector(".h1");
+  let univerResponse = document.write(<h1>"Хороший институт"</h1>);
   alert(univerInfo);
-  h1.innerText = `${univerInfo} Хороший институт`;
   alert(univerResponse);
-  function sayBy() {
-    alert("До следующей встречи!");
-  }
-  sayBy();
+  function sayBy();
 } else {
-  let schoolInfo = prompt("В какой школе ты учишься?", "61");
-  let schoolResponse = document.querySelector(".h1");
-  alert(schoolInfo);
-  h1.innerText = `${schoolInfo} Неплохая школа`;
-
-  alert(schoolResponse);
-  function sayBy() {
-    alert("До следующей встречи!");
-  }
-  sayBy();
+	let schoolInfo = prompt("В какой школе ты учишься?", '61');
+	let schoolResponse = document.write(<h1>"Неплохая школа"</h1>);
+	alert
 }
-*/
-
-//i. Человек вводит в браузер строку, смысл которой - приветствие при встрече. Компьютер тоже должен ответить приветствием. Отвечать нужно в соответствии со следующей таблицей:
-
-/*let sayHello = prompt("Ваше Приветствие!?", "Привет");
-
-switch (sayHello) {
-  case "Привет":
-    alert("Привет");
-    break;
-  case "Здравствуйте":
-    alert("Здравствуйте");
-    break;
-  case "Здорово":
-    alert("Здравствуйте");
-    break;
-  case "Добрый день":
-    alert("Салют");
-    break;
-  case "Приветик":
-    alert("Салют");
-    break;
-  case "Здравия желаю":
-    alert("Вольно");
-    break;
-  default:
-    alert("I don't know this greeting");
-    break;
-}*/
