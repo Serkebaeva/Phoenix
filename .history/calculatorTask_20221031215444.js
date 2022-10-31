@@ -1,4 +1,4 @@
-let activities = document.getElementById("#operator");
+let activities = document.getElementById("operator");
 
 function getSum(a, b) {
   let num1 = document.querySelector("#number-1");

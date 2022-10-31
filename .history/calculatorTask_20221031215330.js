@@ -1,4 +1,4 @@
-let activities = document.getElementById("#operator");
+let activities = document.getElementById("operator");
 
 function getSum(a, b) {
   let num1 = document.querySelector("#number-1");
@@ -76,5 +76,5 @@ activities.addEventListener("change", function () {
   }
 });
 
-const btn = document.querySelector("#calculate");
-btn.addEventListener("click", activities());
+/*const btn = document.querySelector("#calculate");
+btn.addEventListener("click", getSum);*/

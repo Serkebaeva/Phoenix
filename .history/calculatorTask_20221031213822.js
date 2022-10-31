@@ -1,4 +1,4 @@
-let activities = document.getElementById("#operator");
+function operator()
 
 function getSum(a, b) {
   let num1 = document.querySelector("#number-1");
@@ -52,29 +52,8 @@ function multiply(a, b) {
   output.innerText = result;
 }
 
-activities.addEventListener("change", function () {
-  if (activities.value == "+") {
-    getSum();
-  }
-});
-
-activities.addEventListener("change", function () {
-  if (activities.value == "-") {
-    substract();
-  }
-});
-
-activities.addEventListener("change", function () {
-  if (activities.value == "/") {
-    divide();
-  }
-});
-
-activities.addEventListener("change", function () {
-  if (activities.value == "*") {
-    multiply();
-  }
-});
-
 const btn = document.querySelector("#calculate");
-btn.addEventListener("click", activities());
+btn.addEventListener("click", getSum);
+
+const select = document.querySelector("#");
+btn.addEventListener("click", getSum);

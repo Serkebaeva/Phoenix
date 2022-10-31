@@ -1,13 +1,17 @@
-let activities = document.getElementById("#operator");
 
-function getSum(a, b) {
+function equals(a, b) {
   let num1 = document.querySelector("#number-1");
   let num2 = document.querySelector("#number-2");
 
   num1 = +num1.value;
   num2 = +num2.value;
 
-  let result = num1 + num2;
+  switch(this.operation) {
+	case '+':
+		equals = num1 + num2;
+		break;
+		case '-'
+  }
 
   const output = document.querySelector(".result");
   output.innerText = result;
