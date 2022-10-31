@@ -39,22 +39,7 @@ console.log(`Сумма на счету в конце 3-го года - ${thirdY
     - частное от деления a на b;
     - остаток от деления a на b;
     - результат возведения числа a в степень b.*/
-let a = +prompt("Введите 1-е целое число", "10");
-let b = +prompt("Введите 2-е целое число", "5");
+let userNum1 = +prompt("Введите 1-е целое число", "10");
+let userNum2 = +prompt("Введите 2-е целое число", "5");
 
-function isInteger(num) {
-  return (num ^ 0) === num;
-}
-
-if (isInteger(a) === true && isInteger(b) === true) {
-  console.log(`Сумма a и b ${a + b}`);
-  console.log(`Разница между a и b ${a - b}`);
-  console.log(`Произведение a и b ${a * b}`);
-  console.log(`Частное от деления a на b ${a / b}`);
-  console.log(`Остаток от деления a на b ${a % b}`);
-  console.log(`Результат возведения числа a в степень b ${a ** b}`);
-} else if (isInteger(a) === false && isInteger(b) === false) {
-  alert("Возможно вы ввели не целое число, введите только целое число!");
-} else {
-  console.log("Я не знаю такой символ");
-}
+if ()

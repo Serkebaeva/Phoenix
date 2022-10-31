@@ -19,17 +19,17 @@ console.log(
 
 /////////////////////////////////2///////////////////////////////////////////
 //2. Представьте, что вы открыли в банке сберегательный счет под 4 % годовых. Проценты банк рассчитывает в конце года и добавляет к сумме счета. Напишите программу, которая запрашивает у пользователя сумму первоначального депозита, после чего рассчитывает и выводит на экран сумму на счету в конце первого, второго и третьего годов. Все суммы должны быть округлены до двух знаков после запятой.
-/*let depositSum = +prompt("Внесите сумму первоначального депозита", "5000");
-let firstYearInterest = (depositSum * 4) / 100;
+let depositSum = +prompt("Внесите сумму первоначального депозита", "");
+let firstYearInterestRate = (depositSum * 4) / 100;
+let firstYearInterest = firstYearInterestRate * 12;
 let firstYearTotal = depositSum + firstYearInterest;
-let secondYearInterest = (firstYearTotal * 4) / 100;
+let secondYearInterestRate = ((depositSum + firstYearInterest) * 4) / 100;
+let secondYearInterest = secondYearInterestRate * 12;
 let secondYearTotal = firstYearTotal + secondYearInterest;
-let thirdYearInterest = (secondYearTotal * 4) / 100;
-let thirdYearTotal = secondYearTotal + thirdYearInterest;
+/*let thirdYearInterestRate = */
 
-console.log(`Сумма на счету в конце 1-го года - ${firstYearTotal.toFixed(2)}`);
-console.log(`Сумма на счету в конце 2-го года - ${secondYearTotal.toFixed(2)}`);
-console.log(`Сумма на счету в конце 3-го года - ${thirdYearTotal.toFixed(2)}`);*/
+console.log(`Сумма на счету в конце 1-го года - ${firstYearTotal}`);
+console.log(`Сумма на счету в конце 2-го года - ${secondYearTotal}`);
 
 ////////////////////////////////////3//////////////////////////////////////////
 //3. Создайте программу, которая запрашивает у пользователя два целых числа a и b, после чего выводит на экран результаты следующих математических операций:
@@ -39,22 +39,3 @@ console.log(`Сумма на счету в конце 3-го года - ${thirdY
     - частное от деления a на b;
     - остаток от деления a на b;
     - результат возведения числа a в степень b.*/
-let a = +prompt("Введите 1-е целое число", "10");
-let b = +prompt("Введите 2-е целое число", "5");
-
-function isInteger(num) {
-  return (num ^ 0) === num;
-}
-
-if (isInteger(a) === true && isInteger(b) === true) {
-  console.log(`Сумма a и b ${a + b}`);
-  console.log(`Разница между a и b ${a - b}`);
-  console.log(`Произведение a и b ${a * b}`);
-  console.log(`Частное от деления a на b ${a / b}`);
-  console.log(`Остаток от деления a на b ${a % b}`);
-  console.log(`Результат возведения числа a в степень b ${a ** b}`);
-} else if (isInteger(a) === false && isInteger(b) === false) {
-  alert("Возможно вы ввели не целое число, введите только целое число!");
-} else {
-  console.log("Я не знаю такой символ");
-}
