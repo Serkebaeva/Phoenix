@@ -7,16 +7,15 @@ function equals(a, b) {
 
   let result = "";
 
-  let operator = document.getElementById("#operator");
-  let value = operator.option.value;
+  let operator = document.getElementById("#operator").value;
 
-  if (value == "+") {
+  if (operator.option == "+") {
     result = num1 + num2;
-  } else if (value == "-") {
+  } else if (operator.option == "-") {
     result = num1 - num2;
-  } else if (value == "*") {
+  } else if (operator.option == "*") {
     result = num1 * num2;
-  } else if (value == "/") {
+  } else if (operator.option == "/") {
     result = num1 / num2;
   }
 

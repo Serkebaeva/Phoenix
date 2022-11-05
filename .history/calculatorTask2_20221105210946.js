@@ -1,4 +1,4 @@
-function equals(a, b) {
+function equals(num1, num2) {
   let num1 = document.querySelector("#number-1");
   let num2 = document.querySelector("#number-2");
 
@@ -7,16 +7,17 @@ function equals(a, b) {
 
   let result = "";
 
-  let operator = document.getElementById("#operator");
-  let value = operator.option.value;
+  let operator = document.getElementById;
+  ("#operator");
+  let value = operator.value;
 
-  if (value == "+") {
+  if (operator.value == "+") {
     result = num1 + num2;
-  } else if (value == "-") {
+  } else if (operator.value == "-") {
     result = num1 - num2;
-  } else if (value == "*") {
+  } else if (operator.value == "*") {
     result = num1 * num2;
-  } else if (value == "/") {
+  } else if (operator.value == "/") {
     result = num1 / num2;
   }
 

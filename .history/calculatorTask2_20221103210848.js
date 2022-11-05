@@ -5,19 +5,23 @@ function equals(a, b) {
   num1 = +num1.value;
   num2 = +num2.value;
 
-  let result = "";
+  let result = "+";
 
-  let operator = document.getElementById("#operator");
-  let value = operator.option.value;
-
-  if (value == "+") {
-    result = num1 + num2;
-  } else if (value == "-") {
-    result = num1 - num2;
-  } else if (value == "*") {
-    result = num1 * num2;
-  } else if (value == "/") {
-    result = num1 / num2;
+  switch (result) {
+    case "+":
+      result = num1 + num2;
+      break;
+    case "-":
+      result = num1 - num2;
+      break;
+    case "/":
+      result = num1 / num2;
+      break;
+    case "*":
+      result = num1 * num2;
+      break;
+    default:
+      result = num1 + num2;
   }
 
   const output = document.querySelector(".result");

@@ -7,8 +7,8 @@ function equals(a, b) {
 
   let result = "";
 
-  let operator = document.getElementById("#operator");
-  let value = operator.option.value;
+  let operator = document.getElementById("#operator").length;
+  let value = operator.options[operator.selectedIndex].value;
 
   if (value == "+") {
     result = num1 + num2;

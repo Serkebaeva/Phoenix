@@ -7,17 +7,19 @@ function equals(a, b) {
 
   let result = "";
 
-  let operator = document.getElementById("#operator");
-  let value = operator.option.value;
-
-  if (value == "+") {
-    result = num1 + num2;
-  } else if (value == "-") {
-    result = num1 - num2;
-  } else if (value == "*") {
-    result = num1 * num2;
-  } else if (value == "/") {
-    result = num1 / num2;
+  switch (result) {
+    case "+":
+      result = num1 + num2;
+      break;
+    case "-":
+      result = num1 - num2;
+      break;
+    case "/":
+      result = num1 / num2;
+      break;
+    case "*":
+      result = num1 * num2;
+      break;
   }
 
   const output = document.querySelector(".result");
