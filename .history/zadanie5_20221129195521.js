@@ -40,8 +40,6 @@ console.log(res);*/
 
 /////////////////////////////////////// 4 ///////////////////////////////////
 /* Сделайте функцию, которая будет принимать число, а возвращать это число прописью. Пусть функция работает с числами до 999. Смотрите пример: func(123);  выведет 'сто двадцать три' */
-//Сама не смогла решить задачу, использовала с ресурса ниже, переделала с рубля в сомы https://javascript.ru/forum/misc/40642-summa-propisyu.html
-
 function number_to_string(_number) {
   var _arr_numbers = new Array();
   _arr_numbers[1] = new Array(
@@ -174,12 +172,7 @@ function number_to_string(_number) {
     }
   }
   if (_number_decimals) _string += decimals_parser(_number_decimals);
-  _string = _string.charAt(0).toUpperCase() + _string.substring(1);
-
   return _string;
 }
 
-let userNum = 4563.19;
-console.log(
-  `"Сумма итого: ${userNum}, Сумма прописью: ${number_to_string(userNum)}"`
-);
+console.log(`"Сумма_пр" ${number_to_string(6952.62)}""`);
