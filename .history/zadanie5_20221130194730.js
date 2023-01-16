@@ -179,7 +179,7 @@ function number_to_string(_number) {
   return _string;
 }
 
-let userNum = 6579.23;
+let userNum = 4563.19;
 console.log(
   `"Сумма итого: ${userNum}, Сумма прописью: ${number_to_string(userNum)}"`
 );
